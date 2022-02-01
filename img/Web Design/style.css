@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
+
+html{
+  font-family: "Montserrat", sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+li, a, button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+  margin: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #24252A;
+  position: relative;
+}
+
+h3 {
+  color: white;
+  font-family: Montserrat;
+  fontsize: 12px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar {
+  list-style: none;
+  padding-right: 175px;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navbar li a {
+  transition: all 0.5s ease 0s;
+}
+
+.navbar li a:hover {
+  color: #f5c542;
+}
+
+.button {
+  padding: 9px 25px;
+  background-color: #f5c542;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+
+.button:hover {
+  background-color: #fce8b1;
+  opacity: 80%;
+  color: black;
+}
+
+.button1 {
+  padding: 9px 25px;
+  background-color: #f5c542;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  margin-left: 10px;
+  position: relative;
+  left: 490px;
+  top: 20px;
+}
+
+.button1:hover {
+  background-color: #000;
+  opacity: 80%;
+  color: white;
+}
+
+.button2 {
+  padding: 9px 25px;
+  background-color: black;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  margin-left: 10px;
+  position: relative;
+  left: 490px;
+  top: 20px;
+}
+
+.button2:hover {
+  background-color: #f5c542;
+  opacity: 80%;
+  color: white;
+}
+
+.p1 {
+  font-weight: 600;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-left: 425px;
+  font-variant: small-caps;
+  margin-left: 210px;
+}
+
+.p2 {
+  font-size: 25px;
+  font-variant: small-caps;
+  margin-left: 10px;
+  text-align: center;
+}
+.shape {
+  width: 160px;
+  height: 50px;
+  background: #f5c542;
+  border-radius: 50px;
+  padding-top: 7px;
+  padding-right: 5px;
+  position: relative;
+  left: 700px;
+  top: 15px;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+  width: 250px;
+  height: 250px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  width: 253px;
+  height: 253px;
+}
+
+div.gallery img {
+  width: 250px;
+  height: 250px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.box {
+  box-sizing: border-box;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}

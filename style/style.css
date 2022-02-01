@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
+
+html{
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li, a, button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #24252A;
+  position: sticky;
+}
+
+h3 {
+  color: white;
+  font-family: Montserrat;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar {
+  list-style: none;
+  padding-right: 175px;
+  padding-left: 20px;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navbar li a {
+  transition: all 0.5s ease 0s;
+}
+
+.navbar li a:hover {
+  color: #f5c542;
+}
+
+.button {
+  padding: 9px 25px;
+  background-color: #f5c542;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+
+.button:hover {
+  background-color: #fce8b1;
+  opacity: 80%;
+  color: black;
+}
+
+.table:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.second-header{
+  background-color: #f5c542;
+  color: white;
+  width: 50%;
+  height: 683px;
+  padding-left: 200px;
+  float: left;
+}
+
+.p1 {
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 230px;
+  font-variant: small-caps;
+}
+
+.p2 {
+  font-weight: 900;
+  font-size: 72px;
+  letter-spacing: 3px;
+}
+
+[class*="member"] {
+  float: right;
+  width: 50%;
+  height: 97.6px;
+  background: #c9ae61;
+  color: white;
+  transition: all 0.5s;
+}
+
+[class*="member"]:hover {
+  float: right;
+  width: 50%;
+  background-color: #24252A;
+  color: white;
+  transition: all 0.5s;
+}
+
+[class*="name"] {
+  text-align: center;
+  padding : 25px 0px;
+  transition: 0.5s;
+}
+
+[class*="name"]:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+  transition: 0.5s;
+}
+
+.scrolldown
+{
+  height: 350px;
+  background: #c9ae61;
+  transition: 0.5s;
+}
+
+.scrolldown:hover{
+  background: #998756;
+  transition: 0.5s;
+}
+
+img{
+  margin: auto;
+  width: 20%;
+  padding:0px;
+}
+
+.left1{
+  position: relative;
+  width: 20%;
+  left: 250px;
+}
+
+.cuenco{
+  position: relative;
+  align-content: center;
+  color: black;
+  font-weight: 600;
+  font-size: 32px;
+  left: 975px;
+  bottom: 300px;
+}
+
+.bedar{
+  position: relative;
+  align-content: center;
+  color: black;
+  font-weight: 600;
+  font-size: 32px;
+  left: 1015px;
+  bottom: 300px;
+}
+
+.romero{
+  position: relative;
+  align-content: center;
+  color: black;
+  font-weight: 600;
+  font-size: 32px;
+  left: 1070px;
+  bottom: 300px;
+}
+
+.cruzat{
+  position: relative;
+  align-content: center;
+  color: black;
+  font-weight: 600;
+  font-size: 32px;
+  left: 1070px;
+  bottom: 300px;
+}
+
+.left2{
+  position: relative;
+  align-items: center;
+  font-weight: 350;
+  font-size: 24px;
+  left:1150px;
+  bottom:285px;
+}
+
+.about-left{
+  color: black;
+  position: relative;
+  background-color: #f5c542;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  left: 1125px;
+  bottom: 250px;
+}
+
+.about-left:hover {
+  color: black;
+  background-color: #bfa96b;
+  opacity: 80%;
+}
+
+.right1{
+  position:relative;
+  width: 20%;
+  left: 1000px;
+}
+
+.florendo{
+  position: relative;
+  color: black;
+  font-weight: 600;
+  font-size: 32px;
+  left: 240px;
+  bottom: 250px;
+}
+
+.mejia{
+  position: relative;
+  color: black;
+  font-weight: 600;
+  font-size: 32px;
+  left: 300px;
+  bottom: 250px;
+}
+
+.trinidad{
+  position: relative;
+  color: black;
+  font-weight: 600;
+  font-size: 32px;
+  left: 240px;
+  bottom: 250px;
+}
+
+.right2{
+  position: relative;
+  color: black;
+  font-weight: 350;
+  font-size: 24px;
+  left: 350px;
+  bottom: 240px;
+}
+
+.about-right{
+  position: relative;
+  background-color: #f5c542;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  left: 335px;
+  bottom: 210px;
+}
+
+.about-right:hover{
+  background-color: #bfa96b;
+  color: black;
+  opacity: 80%;
+}

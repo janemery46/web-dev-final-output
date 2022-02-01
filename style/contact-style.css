@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
+
+html{
+  font-family: "Montserrat", sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+li, a, button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+  margin: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #24252A;
+  position: relative;
+}
+
+h3 {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar {
+
+  list-style: none;
+  padding-right: 175px;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navbar li a {
+  transition: all 0.5s ease 0s;
+}
+
+.navbar li a:hover {
+  color: #f5c542;
+}
+
+.button {
+  padding: 9px 25px;
+  background-color: #f5c542;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+
+.button:hover {
+  background-color: #fce8b1;
+  opacity: 80%;
+  color: black;
+}
+
+
+
+.p1 {
+  font-size: 25px;
+  font-variant: small-caps;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.p2 {
+  font-size: 50px;
+  font-variant: small-caps;
+  margin-top: 30px;
+  margin-left: 35px;
+  text-align: center;
+}
+
+.p3 {
+  font-size: 20px;
+  font-variant: small-caps;
+  margin-top: 10px;
+  margin-left: 35px;
+  text-align: center;
+}
+.container {
+  padding-top: 50px;
+  padding-left: 450px;
+  padding-right: 400px;
+  padding-bottom: 10px;
+}
+
+.container1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.container2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.container3 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button1 {
+  padding: 14px 20px;
+  margin-top: 20px;
+  background-color: #f5c542;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  color: #000;
+}
+
+.button1:hover {
+  background-color: #000;
+  opacity: 80%;
+  color: white;
+}
+
+img {
+  width: 700px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+
+}

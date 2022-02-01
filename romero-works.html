@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jonna Romero- Works | Web Development</title>
+  <link rel="stylesheet" href="style/works-style.css">
+</head>
+<body>
+  <header>
+    <h3>Web Development Group 3</h3>
+    <nav>
+      <ul class="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#cuenco">About</a></li>
+      </ul>
+    </nav>
+    <a class ="cta" href="contact.html"><button class="button">Contact</button></a>
+  </header>
+  <h2 class = "title-text">PORTFOLIO | Jonna Romero</h2><br>
+    <p class = "sort-items">Categories</p><br>
+
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')">Show all</button>
+    <button class="btn" onclick="filterSelection('backgrounds')">Backgrounds</button>
+    <button class="btn" onclick="filterSelection('flyers')">Flyers</button>
+    <button class="btn" onclick="filterSelection('logos')">Logos</button>
+    <button class="btn" onclick="filterSelection('website')">Website Templates</button>
+  </div>
+
+  <div id="container">
+    <div class="filterDiv backgrounds"><img class="works" src="img/romerowork.jpg"><br><p class="work-name">Blog Website</p></div>
+    <div class="filterDiv flyers"><img class="works" src="img/Flyer/1.jpg"><br><p class="work-name">Flyer 1</p></div>
+    <div class="filterDiv logos"><img class="works" src="img/Logo/Photography/3.png"><br><p class="work-name">Logo 1</p></div>
+    <div class="filterDiv logos"><img class="works" src="img/Logo/Photography/1.png"><br><p class="work-name">Logo 2</p></div>
+  </div>
+  <script src="js/script.js"></script>
+
+  </script>
+</body>
+</html>

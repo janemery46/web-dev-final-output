@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
+
+html{
+  font-family: "Montserrat", sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+li, a, button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+  margin: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #24252A;
+  position: relative;
+}
+
+h3 {
+  color: white;
+  font-family: Montserrat;
+  fontsize: 12px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar {
+  list-style: none;
+  padding-right: 175px;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navbar li a {
+  transition: all 0.5s ease 0s;
+}
+
+.navbar li a:hover {
+  color: #f5c542;
+}
+
+.button {
+  padding: 9px 25px;
+  background-color: #f5c542;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+
+.button:hover {
+  background-color: #fce8b1;
+  opacity: 80%;
+  color: black;
+}
+
+.button1 {
+  padding: 9px 25px;
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color: #f5c542;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  color: #000;
+}
+
+.button1:hover {
+  background-color: #000;
+  opacity: 80%;
+  color: white;
+}
+
+.button2 {
+  padding: 9px 25px;
+  margin-top: 20px;
+  margin-left: 500px;
+  background-color: #000;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  color: white;
+}
+
+.button2:hover {
+  background-color: #f5c542;
+  opacity: 80%;
+  color: #000;
+}
+
+.button3 {
+  padding: 9px 25px;
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color: black;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  color: white;
+}
+
+.button3:hover {
+  background-color: #f5c542;
+  opacity: 80%;
+  color: #000;
+}
+
+.filterDiv {
+  float: left;
+  background-color: #c9ae61;
+  width: auto;
+  height: 350px;
+  text-align: center;
+  margin: 10px;
+  padding: 0px 20px;
+  display: none;
+  font-size: 18px;
+  font-weight: 500;
+  top: 20px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  overflow: hidden;
+  align-items: center;
+  padding: 20px;
+  margin: 2px;
+}
+
+#myBtnContainer{
+  align-content: center;
+  margin: 0px 2px;
+  padding-left: 450px;
+}
+
+#myBtnContainer-4slot{
+  align-content: center;
+  margin: 0px 2px;
+  padding-left: 550px;
+}
+
+.btn {
+  color: black;
+  padding: 9px 25px;
+  background-color: #f5c542;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+
+.btn:hover {
+  background-color: #24252A;
+  color: white;
+}
+
+.btn.active {
+  background-color: #24252A;
+  color: white;
+}
+
+
+img{
+  border-radius: 10px;
+  padding-top: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+.title-text{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.sort-items{
+  font-size: 20px;
+  text-align: center;
+}
+
+.work-name{
+  top: 10px;
+}
