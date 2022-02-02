@@ -1,17 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap");
 
-html{
+html {
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
 }
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-li, a, button {
+li,
+a,
+button {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -24,7 +26,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  background-color: #24252A;
+  background-color: #24252a;
   position: sticky;
 }
 
@@ -69,27 +71,40 @@ h3 {
   opacity: 80%;
   color: black;
 }
-
+.table {
+  display: flex;
+  flex-direction: row;
+}
+.members {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+.members a {
+  width: 100%;
+  background-color: #f5c542;
+}
+.members-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 .table:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.second-header{
+.second-header {
+  display: flex;
+  flex-direction: column;
   background-color: #f5c542;
   color: white;
   width: 50%;
-  height: 683px;
-  padding-left: 200px;
-  float: left;
-}
-
-.p1 {
-  font-weight: 600;
-  font-size: 20px;
-  padding-top: 230px;
-  font-variant: small-caps;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .p2 {
@@ -98,60 +113,83 @@ h3 {
   letter-spacing: 3px;
 }
 
-[class*="member"] {
+/* [class*="member"] {
   float: right;
   width: 50%;
   height: 97.6px;
   background: #c9ae61;
   color: white;
   transition: all 0.5s;
-}
+} */
 
-[class*="member"]:hover {
+/* [class*="member"]:hover {
   float: right;
   width: 50%;
-  background-color: #24252A;
+  background-color: #24252a;
   color: white;
   transition: all 0.5s;
+} */
+.right-part {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-
 [class*="name"] {
   text-align: center;
-  padding : 25px 0px;
+  padding: 25px 0px;
   transition: 0.5s;
 }
-
+.user-name {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.position {
+  font-size: x-large;
+  font-weight: bold;
+}
+.btn {
+  margin: 10px 15px;
+  padding: 5px 15px;
+  width: 50%;
+  background-color: #ffdb77;
+  border-radius: 20px;
+}
 [class*="name"]:hover {
   padding-right: 24px;
   padding-left: 8px;
   transition: 0.5s;
 }
 
-.scrolldown
-{
+.scrolldown {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   height: 350px;
   background: #c9ae61;
   transition: 0.5s;
 }
 
-.scrolldown:hover{
+.scrolldown:hover {
   background: #998756;
   transition: 0.5s;
 }
 
-img{
+img {
   margin: auto;
   width: 20%;
-  padding:0px;
+  padding: 0px;
 }
 
-.left1{
+.left1 {
   position: relative;
   width: 20%;
-  left: 250px;
 }
 
-.cuenco{
+.cuenco {
   position: relative;
   align-content: center;
   color: black;
@@ -161,7 +199,7 @@ img{
   bottom: 300px;
 }
 
-.bedar{
+.bedar {
   position: relative;
   align-content: center;
   color: black;
@@ -171,7 +209,7 @@ img{
   bottom: 300px;
 }
 
-.romero{
+.romero {
   position: relative;
   align-content: center;
   color: black;
@@ -181,7 +219,7 @@ img{
   bottom: 300px;
 }
 
-.cruzat{
+.cruzat {
   position: relative;
   align-content: center;
   color: black;
@@ -191,16 +229,16 @@ img{
   bottom: 300px;
 }
 
-.left2{
+.left2 {
   position: relative;
   align-items: center;
   font-weight: 350;
   font-size: 24px;
-  left:1150px;
-  bottom:285px;
+  left: 1150px;
+  bottom: 285px;
 }
 
-.about-left{
+.about-left {
   color: black;
   position: relative;
   background-color: #f5c542;
@@ -219,13 +257,13 @@ img{
   opacity: 80%;
 }
 
-.right1{
-  position:relative;
+.right1 {
+  position: relative;
   width: 20%;
   left: 1000px;
 }
 
-.florendo{
+.florendo {
   position: relative;
   color: black;
   font-weight: 600;
@@ -234,7 +272,7 @@ img{
   bottom: 250px;
 }
 
-.mejia{
+.mejia {
   position: relative;
   color: black;
   font-weight: 600;
@@ -243,7 +281,7 @@ img{
   bottom: 250px;
 }
 
-.trinidad{
+.trinidad {
   position: relative;
   color: black;
   font-weight: 600;
@@ -252,7 +290,7 @@ img{
   bottom: 250px;
 }
 
-.right2{
+.right2 {
   position: relative;
   color: black;
   font-weight: 350;
@@ -261,7 +299,7 @@ img{
   bottom: 240px;
 }
 
-.about-right{
+.about-right {
   position: relative;
   background-color: #f5c542;
   padding: 9px 25px;
@@ -273,7 +311,7 @@ img{
   bottom: 210px;
 }
 
-.about-right:hover{
+.about-right:hover {
   background-color: #bfa96b;
   color: black;
   opacity: 80%;
